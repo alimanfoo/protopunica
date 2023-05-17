@@ -4,7 +4,7 @@
 import numpy
 
 class NeuralNetworkWrapper():
-    '''A wrapper for a neural network model for use in pomegranate.
+    '''A wrapper for a neural network model for use in protopunica.
     
     This wrapper will store a pointer to the model, as well as an indicator
     of what class it represents. It needs information about the number of
@@ -12,7 +12,7 @@ class NeuralNetworkWrapper():
     It is currently built to work with keras models, but can be easily
     modified to work with the package of your choice.
     
-    Training works in a somewhat hacky manner. Internally, pomegranate
+    Training works in a somewhat hacky manner. Internally, protopunica
     will scan over all components of the model, calling `summarize` for each
     one, and then `from_summaries` at the end. During the EM procedure, the
     samples and their associated weights are passed in to the `summarize`
@@ -22,7 +22,7 @@ class NeuralNetworkWrapper():
     better to reconstruct the whole responsibility matrix for the batch of
     data and then train on soft labels.
     
-    The process for training is as follows. When pomegranate starts a round of
+    The process for training is as follows. When protopunica starts a round of
     optimization, this wrapper will store a pointer to the data set to the
     neural network model object. This data set is the same one passed to each
     NeuralNetworkWrapper, the only difference being the ~weights~. Thus, each

@@ -1,6 +1,6 @@
 from __future__ import  (division, print_function)
 
-from pomegranate import *
+from protopunica import *
 from nose.tools import with_setup
 from nose.tools import assert_equal
 from nose.tools import assert_not_equal

@@ -1,7 +1,7 @@
-from pomegranate import *
-from pomegranate.io import DataGenerator
-from pomegranate.io import SequenceGenerator
-from pomegranate.io import DataFrameGenerator
+from protopunica import *
+from protopunica.io import DataGenerator
+from protopunica.io import SequenceGenerator
+from protopunica.io import DataFrameGenerator
 
 from nose.tools import with_setup
 from nose.tools import assert_true

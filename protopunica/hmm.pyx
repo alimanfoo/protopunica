@@ -208,7 +208,7 @@ cdef class HiddenMarkovModel(GraphModel):
 
 	Examples
 	--------
-	>>> from pomegranate import *
+	>>> from protopunica import *
 	>>> d1 = DiscreteDistribution({'A' : 0.35, 'C' : 0.20, 'G' : 0.05, 'T' : 0.40})
 	>>> d2 = DiscreteDistribution({'A' : 0.25, 'C' : 0.25, 'G' : 0.25, 'T' : 0.25})
 	>>> d3 = DiscreteDistribution({'A' : 0.10, 'C' : 0.40, 'G' : 0.40, 'T' : 0.10})

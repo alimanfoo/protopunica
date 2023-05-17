@@ -1,6 +1,6 @@
 from __future__ import (division)
 
-from pomegranate import (Distribution,
+from protopunica import (Distribution,
 						 UniformDistribution,
 						 NormalDistribution,
 						 DiscreteDistribution,

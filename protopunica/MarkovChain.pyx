@@ -34,7 +34,7 @@ cdef class MarkovChain(object):
 
 	Examples
 	--------
-	>>> from pomegranate import *
+	>>> from protopunica import *
 	>>> d1 = DiscreteDistribution({'A': 0.25, 'B': 0.75})
 	>>> d2 = ConditionalProbabilityTable([['A', 'A', 0.33],
 		                             ['B', 'A', 0.67],

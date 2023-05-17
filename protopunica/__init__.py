@@ -1,4 +1,4 @@
-# __init__.py: pomegranate
+# __init__.py: protopunica
 # Contact: Jacob Schreiber <jmschreiber91@gmail.com>
 
 
@@ -31,14 +31,14 @@ def from_json(s):
 	"""A robust loading method.
 
 	This method can load an appropriately formatted JSON object from any model
-	in pomegranate and return the appropriate object. This relies mostly on the
+	in protopunica and return the appropriate object. This relies mostly on the
 	'class' attribute in the JSON.
 
 	Parameters
 	----------
 	s : str
 		Either the filename of a JSON object or a string that is JSON formatted,
-		as produced by any of the `to_json` methods in pomegranate.
+		as produced by any of the `to_json` methods in protopunica.
 	"""
 
 	try:

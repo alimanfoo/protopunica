@@ -1,8 +1,8 @@
 from __future__ import (division)
 
-from pomegranate import *
-from pomegranate.parallel import log_probability
-from pomegranate.io import SequenceGenerator
+from protopunica import *
+from protopunica.parallel import log_probability
+from protopunica.io import SequenceGenerator
 
 from nose.tools import with_setup
 from nose.tools import assert_almost_equal

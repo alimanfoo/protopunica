@@ -1,4 +1,4 @@
-PACKAGE_NAME=pomegranate
+PACKAGE_NAME=protopunica
 PY2_ENV=py2.7
 PY3_ENV=py3.6
 

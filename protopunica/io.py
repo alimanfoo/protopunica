@@ -155,7 +155,7 @@ class SequenceGenerator(BaseGenerator):
 	"""A generator that returns batches of sequences from a data set.
 
 	This object will wrap a data set and optionally a set of labels and will
-	return sequences as requested. Due to the processing in pomegranate, only
+	return sequences as requested. Due to the processing in protopunica, only
 	batches of size 1 are supported.
 
 	Parameters
@@ -237,7 +237,7 @@ class DataFrameGenerator(BaseGenerator):
 
 	This object will wrap a DataFrame and generate batches of data
 	from it. This gives a natural support for pandas DataFrames to
-	all pomegranate models. Weights and labels for examples can either
+	all protopunica models. Weights and labels for examples can either
 	be passed in separately (potentially either as Series or array
 	objects) or specified as a column in the main DataFrame object.
 

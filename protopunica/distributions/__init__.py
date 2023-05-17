@@ -1,4 +1,4 @@
-# distributions/__init__.py: pomegranate
+# distributions/__init__.py: protopunica
 # Contact: Jacob Schreiber <jmschreiber91@gmail.com>
 
 

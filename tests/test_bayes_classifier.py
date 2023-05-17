@@ -1,9 +1,9 @@
 from __future__ import (division)
 
-from pomegranate import *
-from pomegranate.bayes import BayesModel
-from pomegranate.io import DataGenerator
-from pomegranate.io import DataFrameGenerator
+from protopunica import *
+from protopunica.bayes import BayesModel
+from protopunica.io import DataGenerator
+from protopunica.io import DataFrameGenerator
 
 from nose.tools import with_setup
 from nose.tools import assert_almost_equal
@@ -14,6 +14,7 @@ from nose.tools import assert_raises
 from nose.tools import assert_true
 from numpy.testing import assert_array_almost_equal
 
+import numpy
 import pandas
 import random
 import pickle

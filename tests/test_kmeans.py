@@ -1,4 +1,4 @@
-from pomegranate import *
+from protopunica import *
 from nose.tools import with_setup
 from nose.tools import assert_true
 from nose.tools import assert_equal

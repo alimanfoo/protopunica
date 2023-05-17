@@ -64,7 +64,7 @@ cdef class GeneralMixtureModel(BayesModel):
 
     Examples
     --------
-    >>> from pomegranate import *
+    >>> from protopunica import *
     >>>
     >>> d1 = NormalDistribution(5, 2)
     >>> d2 = NormalDistribution(1, 1)

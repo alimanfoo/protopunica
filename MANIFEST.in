@@ -3,4 +3,4 @@ include LICENSE
 
 graft tests
 
-recursive-include pomegranate *.py *.c *.pxd *.pyx
+recursive-include protopunica *.py *.c *.pxd *.pyx

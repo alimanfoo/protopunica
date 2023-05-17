@@ -7,10 +7,10 @@ These are unit tests for the Markov network model of pomegranate.
 
 from __future__ import division
 
-from pomegranate import JointProbabilityTable
-from pomegranate import MarkovNetwork
-from pomegranate.io import DataGenerator
-from pomegranate.io import DataFrameGenerator
+from protopunica import JointProbabilityTable
+from protopunica import MarkovNetwork
+from protopunica.io import DataGenerator
+from protopunica.io import DataFrameGenerator
 
 from nose.tools import with_setup
 from nose.tools import assert_equal

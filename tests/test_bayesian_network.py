@@ -8,14 +8,14 @@ These are unit tests for the Bayesian network part of pomegranate.
 
 from __future__ import division
 
-from pomegranate import from_json
-from pomegranate import DiscreteDistribution
-from pomegranate import ConditionalProbabilityTable
-from pomegranate import State, Node
-from pomegranate import BayesianNetwork
-from pomegranate.BayesianNetwork import _check_input
-from pomegranate.io import DataGenerator
-from pomegranate.io import DataFrameGenerator
+from protopunica import from_json
+from protopunica import DiscreteDistribution
+from protopunica import ConditionalProbabilityTable
+from protopunica import State, Node
+from protopunica import BayesianNetwork
+from protopunica.BayesianNetwork import _check_input
+from protopunica.io import DataGenerator
+from protopunica.io import DataFrameGenerator
 
 from nose.tools import with_setup
 from nose.tools import assert_equal

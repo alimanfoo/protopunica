@@ -162,7 +162,7 @@ cdef class BayesianNetwork(GraphModel):
 
 	Example
 	-------
-	>>> from pomegranate import *
+	>>> from protopunica import *
 	>>> d1 = DiscreteDistribution({'A': 0.2, 'B': 0.8})
 	>>> d2 = ConditionalProbabilityTable([['A', 'A', 0.1],
 										 ['A', 'B', 0.9],
@@ -439,7 +439,7 @@ cdef class BayesianNetwork(GraphModel):
 			else:
 				data_generator = X
 
-			fn = '.pomegranate.tmp'
+			fn = '.protopunica.tmp'
 			with open(fn, 'w') as outfile:
 				outfile.write(self.to_json())
 
@@ -615,7 +615,7 @@ cdef class BayesianNetwork(GraphModel):
 			else:
 				data_generator = X
 
-			fn = '.pomegranate.tmp'
+			fn = '.protopunica.tmp'
 			with open(fn, 'w') as outfile:
 				outfile.write(self.to_json())
 

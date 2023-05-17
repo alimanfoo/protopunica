@@ -5,7 +5,7 @@ class Callback(object):
 	"""An object that adds functionality during training.
 
 	A callback is a function or group of functions that can be executed during
-	the training process for any of pomegranate's models that have iterative
+	the training process for any of protopunica's models that have iterative
 	training procedures. A callback can be called at three stages-- the
 	beginning of training, at the end of each epoch (or iteration), and at
 	the end of training. Users can define any functions that they wish in

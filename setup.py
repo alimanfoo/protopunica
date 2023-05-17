@@ -50,12 +50,12 @@ distributions = [
 
 if not use_cython:
     extensions = [
-        Extension("pomegranate.{}".format( name ), [ "pomegranate/{}.{}".format(name, ext) ]) for name in filenames
-    ] + [Extension("pomegranate.distributions.{}".format(dist), ["pomegranate/distributions/{}.{}".format(dist, ext)]) for dist in distributions]
+        Extension("protopunica.{}".format( name ), [ "protopunica/{}.{}".format(name, ext) ]) for name in filenames
+    ] + [Extension("protopunica.distributions.{}".format(dist), ["protopunica/distributions/{}.{}".format(dist, ext)]) for dist in distributions]
 else:
     extensions = [
-            Extension("pomegranate.*", ["pomegranate/*.pyx"]),
-	        Extension("pomegranate.distributions.*", ["pomegranate/distributions/*.pyx"])
+            Extension("protopunica.*", ["protopunica/*.pyx"]),
+	        Extension("protopunica.distributions.*", ["protopunica/distributions/*.pyx"])
     ]
 
     extensions = cythonize(extensions, compiler_directives={'language_level' : "2"})
@@ -70,17 +70,17 @@ class build_ext(_build_ext):
         self.include_dirs.append(numpy.get_include())
 
 setup(
-    name='pomegranate',
+    name='protopunica',
     version='0.14.8',
     author='Jacob Schreiber',
     author_email='jmschreiber91@gmail.com',
     packages=[
-        'pomegranate',
-        'pomegranate/distributions',
+        'protopunica',
+        'protopunica/distributions',
     ],
-    url='http://pypi.python.org/pypi/pomegranate/',
+    url='http://pypi.python.org/pypi/protopunica/',
     license='MIT',
-    description='Pomegranate is a graphical models library for Python, implemented in Cython for speed.',
+    description='protopunica is a graphical models library for Python, implemented in Cython for speed.',
     ext_modules=extensions,
     cmdclass={'build_ext':build_ext},
     setup_requires=[
@@ -101,8 +101,8 @@ setup(
     },
     test_suite = 'nose.collector',
     package_data={
-        'pomegranate': ['*.pyd', '*.pxd'],
-        'pomegranate/distributions': ['*.pyd', '*.pxd'],
+        'protopunica': ['*.pyd', '*.pxd'],
+        'protopunica/distributions': ['*.pyd', '*.pxd'],
     },
     include_package_data=True,
     zip_safe=False,

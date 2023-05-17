@@ -1,8 +1,8 @@
 from __future__ import (division)
 
-from pomegranate import *
-from pomegranate.io import DataGenerator
-from pomegranate.io import DataFrameGenerator
+from protopunica import *
+from protopunica.io import DataGenerator
+from protopunica.io import DataFrameGenerator
 
 from nose.tools import with_setup
 from nose.tools import assert_almost_equal

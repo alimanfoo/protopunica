@@ -24,7 +24,7 @@ def parallelize(model, X, func, n_jobs, backend):
 	Parameters
 	----------
 	model : base.Model
-		This is any pomegranate model. All pomegranate models have a cython
+		This is any protopunica model. All protopunica models have a cython
 		backend which releases the GIL and allows for multithreaded
 		parallelization.
 
@@ -75,7 +75,7 @@ def predict(model, X, n_jobs=1, backend='threading'):
 	Parameters
 	----------
 	model : base.Model
-		This is any pomegranate model. All pomegranate models have a cython
+		This is any protopunica model. All protopunica models have a cython
 		backend which releases the GIL and allows for multithreaded
 		parallelization.
 
@@ -112,7 +112,7 @@ def predict_proba(model, X, n_jobs=1, backend='threading'):
 	Parameters
 	----------
 	model : base.Model
-		This is any pomegranate model. All pomegranate models have a cython
+		This is any protopunica model. All protopunica models have a cython
 		backend which releases the GIL and allows for multithreaded
 		parallelization.
 
@@ -149,7 +149,7 @@ def predict_log_proba(model, X, n_jobs=1, backend='threading'):
 	Parameters
 	----------
 	model : base.Model
-		This is any pomegranate model. All pomegranate models have a cython
+		This is any protopunica model. All protopunica models have a cython
 		backend which releases the GIL and allows for multithreaded
 		parallelization.
 
@@ -186,7 +186,7 @@ def log_probability(model, X, n_jobs=1, backend='threading'):
 	Parameters
 	----------
 	model : base.Model
-		This is any pomegranate model. All pomegranate models have a cython
+		This is any protopunica model. All protopunica models have a cython
 		backend which releases the GIL and allows for multithreaded
 		parallelization.
 
@@ -223,7 +223,7 @@ def probability(model, X, n_jobs=1, backend='threading'):
 	Parameters
 	----------
 	model : base.Model
-		This is any pomegranate model. All pomegranate models have a cython
+		This is any protopunica model. All protopunica models have a cython
 		backend which releases the GIL and allows for multithreaded
 		parallelization.
 
@@ -260,7 +260,7 @@ def summarize(model, X, weights=None, y=None, n_jobs=1, backend='threading', par
 	Parameters
 	----------
 	model : base.Model
-		This is any pomegranate model. All pomegranate models have a cython
+		This is any protopunica model. All protopunica models have a cython
 		backend which releases the GIL and allows for multithreaded
 		parallelization.
 
@@ -333,7 +333,7 @@ def fit(model, X, weights=None, y=None, n_jobs=1, backend='threading', stop_thre
 	Parameters
 	----------
 	model : base.Model
-		This is any pomegranate model. All pomegranate models have a cython
+		This is any protopunica model. All protopunica models have a cython
 		backend which releases the GIL and allows for multithreaded
 		parallelization.
 
