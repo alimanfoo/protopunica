@@ -80,7 +80,7 @@ setup(
     ],
     url='http://pypi.python.org/pypi/protopunica/',
     license='MIT',
-    description='protopunica is a graphical models library for Python, implemented in Cython for speed.',
+    description='The wild ancestor of pomegranate.',
     ext_modules=extensions,
     cmdclass={'build_ext':build_ext},
     setup_requires=[
