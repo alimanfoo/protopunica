@@ -71,7 +71,7 @@ class build_ext(_build_ext):
 
 setup(
     name='protopunica',
-    version='0.14.8',
+    version='0.14.8rc1',
     author='Jacob Schreiber',
     author_email='jmschreiber91@gmail.com',
     packages=[
@@ -99,7 +99,7 @@ setup(
         "Plotting": ["pygraphviz", "matplotlib"],
         "GPU": ["cupy"],
     },
-    test_suite = 'nose.collector',
+    # test_suite = 'nose.collector',
     package_data={
         'protopunica': ['*.pyd', '*.pxd'],
         'protopunica/distributions': ['*.pyd', '*.pxd'],
