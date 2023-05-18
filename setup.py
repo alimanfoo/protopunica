@@ -71,7 +71,7 @@ class build_ext(_build_ext):
 
 setup(
     name='protopunica',
-    version='0.14.8rc2',
+    version='0.14.8rc3',
     author='Jacob Schreiber',
     author_email='jmschreiber91@gmail.com',
     packages=[
@@ -84,11 +84,6 @@ setup(
     long_description='Protopunica is pomegranate frozen at version 0.14.8.',
     ext_modules=extensions,
     cmdclass={'build_ext':build_ext},
-    setup_requires=[
-        "cython >= 0.22.1",
-        "numpy >= 1.20.0",
-        "scipy >= 0.17.0"
-    ],
     install_requires=[
         "numpy >= 1.20.0",
         "joblib >= 0.9.0b4",
