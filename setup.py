@@ -66,8 +66,11 @@ class build_ext(_build_ext):
         # Prevent numpy from thinking it is still in its setup process:
         if hasattr(__builtins__, '__NUMPY_SETUP__'):
             __builtins__.__NUMPY_SETUP__ = False
-        import numpy
-        self.include_dirs.append(numpy.get_include())
+        try:
+            import numpy
+            self.include_dirs.append(numpy.get_include())
+        except ImportError:
+            pass
 
 setup(
     name='protopunica',
