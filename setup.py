@@ -71,7 +71,7 @@ class build_ext(_build_ext):
 
 setup(
     name='protopunica',
-    version='0.14.8rc1',
+    version='0.14.8rc2',
     author='Jacob Schreiber',
     author_email='jmschreiber91@gmail.com',
     packages=[
@@ -80,7 +80,8 @@ setup(
     ],
     url='http://pypi.python.org/pypi/protopunica/',
     license='MIT',
-    description='The wild ancestor of pomegranate.',
+    description='Protopunica is pomegranate frozen at version 0.14.8.',
+    long_description='Protopunica is pomegranate frozen at version 0.14.8.',
     ext_modules=extensions,
     cmdclass={'build_ext':build_ext},
     setup_requires=[
