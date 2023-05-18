@@ -1,2 +1,3 @@
 # protopunica
-The wild ancestor of pomegranate.
+
+Protopunica is pomegranate frozen at version 0.14.8.
