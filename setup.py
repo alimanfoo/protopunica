@@ -74,7 +74,7 @@ class build_ext(_build_ext):
 
 setup(
     name='protopunica',
-    version='0.14.8',
+    version='0.14.8.post1',
     author='Jacob Schreiber',
     author_email='jmschreiber91@gmail.com',
     packages=[
